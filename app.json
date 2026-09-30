@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "minhas-series",
+    "name": "Minhas Séries",
     "slug": "minhas-series",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,7 +19,13 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "scheme": "minhas-series",
+    "plugins": [
+      "expo-router",
+      "expo-sqlite"
+    ]
   }
 }
